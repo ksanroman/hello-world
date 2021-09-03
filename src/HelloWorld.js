@@ -33,6 +33,8 @@ export class HelloWorld extends LitElement {
     this.counter -= 1;
     if(this.counter <= 0){
       this.counter =0;  
+    }else{
+      button.disabled = true; 
     }
   }
 
