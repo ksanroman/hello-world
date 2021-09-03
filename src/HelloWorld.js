@@ -34,6 +34,9 @@ export class HelloWorld extends LitElement {
     if(this.counter <= 0){
       this.counter =0;  
     }
+    if(this.counter === 0){
+      this.disabled = true; 
+    }
   }
 
   render() {
